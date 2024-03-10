@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C90A9C9C-4DFE-12FD-AB57-3FC31392B47B" name="Jednostki">
+<createdBy>Igor</createdBy>
+<createdTime>2022-03-31 04:26:01 UTC</createdTime>
+<generatorID>00CA84A7-76E6-A8FF-566A-D4DB5A9F2EC0</generatorID>
+<ownerDesignName>DataBaseForGame</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="96ADE517-6490-1F3E-B2BF-E9A770679FCC">
+<createdBy>Igor</createdBy>
+<createdTime>2022-03-31 04:26:01 UTC</createdTime>
+<generatorID>9C3F8A39-1C9E-5491-87AB-50D94AEC5F39</generatorID>
+<ownerDesignName>DataBaseForGame</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Imie" id="D0D0F5D4-7D90-A79E-641C-AB78DAEBB8D1">
+<createdBy>Igor</createdBy>
+<createdTime>2022-03-31 04:26:01 UTC</createdTime>
+<generatorID>7E825A7D-CE3F-1672-3B44-3EB3170DB6D0</generatorID>
+<ownerDesignName>DataBaseForGame</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zdrowie" id="5A29569A-4703-BB43-AFFC-7457ECD18365">
+<createdBy>Igor</createdBy>
+<createdTime>2022-03-31 04:26:01 UTC</createdTime>
+<generatorID>5D1A07B3-44F9-4E2D-9FA3-2C0A114AADD1</generatorID>
+<ownerDesignName>DataBaseForGame</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Typ_ataku" id="2B234D39-DA82-069B-366A-7959861B6167">
+<createdBy>Igor</createdBy>
+<createdTime>2022-03-31 04:26:01 UTC</createdTime>
+<generatorID>3BBFA544-892C-BC81-D34C-501F9B900681</generatorID>
+<ownerDesignName>DataBaseForGame</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Opis" id="752B6A6E-902D-74BC-9432-69E62344F67B">
+<createdBy>Igor</createdBy>
+<createdTime>2022-03-31 04:26:01 UTC</createdTime>
+<generatorID>F89C2111-E838-DF85-C3B0-64E41AAAF155</generatorID>
+<ownerDesignName>DataBaseForGame</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FD1586E0-C28D-9A0A-6C7D-B8A0231C9CD3" name="Jednostki_PK">
+<createdBy>Igor</createdBy>
+<createdTime>2022-03-31 04:26:01 UTC</createdTime>
+<generatorID>1FCF8A94-F6DC-4958-BC4F-C593E3CC4926</generatorID>
+<ownerDesignName>DataBaseForGame</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96ADE517-6490-1F3E-B2BF-E9A770679FCC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

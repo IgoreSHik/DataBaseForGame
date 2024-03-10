@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9DBB9B68-28EB-AD85-EF19-3BD80025AF77" name="Strony">
+<createdBy>Igor</createdBy>
+<createdTime>2022-03-31 04:26:01 UTC</createdTime>
+<generatorID>DBA292C6-7471-47A6-067A-27E128F684F0</generatorID>
+<ownerDesignName>DataBaseForGame</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="BE682F93-6DDF-08B4-CC2D-17E17D090998">
+<createdBy>Igor</createdBy>
+<createdTime>2022-03-31 04:26:01 UTC</createdTime>
+<generatorID>A14B5356-A7B2-95C7-6C8C-DECFEB21F020</generatorID>
+<ownerDesignName>DataBaseForGame</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwa" id="628C3C7F-0A49-7D3C-7C31-222C37E405A6">
+<createdBy>Igor</createdBy>
+<createdTime>2022-03-31 04:26:01 UTC</createdTime>
+<generatorID>39D21EEC-4004-976B-706A-70F825074885</generatorID>
+<ownerDesignName>DataBaseForGame</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Opis" id="A8D2F9C6-2893-C5E9-7F6A-DB5C60FBA764">
+<createdBy>Igor</createdBy>
+<createdTime>2022-03-31 04:26:01 UTC</createdTime>
+<generatorID>144AF5CA-EA68-38C1-A14D-057A385A2CC5</generatorID>
+<ownerDesignName>DataBaseForGame</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C1D417FE-97F8-6DBA-2D86-1959ECC6A0F8" name="Strony_PK">
+<createdBy>Igor</createdBy>
+<createdTime>2022-03-31 04:26:01 UTC</createdTime>
+<generatorID>1977EE7F-AD5E-E695-34B9-07E7F4802752</generatorID>
+<ownerDesignName>DataBaseForGame</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE682F93-6DDF-08B4-CC2D-17E17D090998"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

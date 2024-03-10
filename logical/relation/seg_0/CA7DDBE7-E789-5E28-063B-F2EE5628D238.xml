@@ -1,0 +1,34 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Koszt_Postaci" directorySegmentName="seg_0" id="CA7DDBE7-E789-5E28-063B-F2EE5628D238">
+<createdBy>Igor</createdBy>
+<createdTime>2022-03-17 17:30:14 UTC</createdTime>
+<ownerDesignName>DataBaseForGame</ownerDesignName>
+<engineerTo>
+<item key="9CD51F89-00DC-091A-98CE-94FEC369CAFB" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>F1676DEB-AFEB-F4E3-B599-01353904084B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>00CA84A7-76E6-A8FF-566A-D4DB5A9F2EC0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="Ilosc" id="884AF9B2-50FB-33F8-F678-AB292DF317D3">
+<createdBy>Igor</createdBy>
+<createdTime>2022-03-17 17:45:54 UTC</createdTime>
+<generatorID>940B7A10-627E-39B5-2559-6D655184A1B6</generatorID>
+<ownerDesignName>DataBaseForGame</ownerDesignName>
+<engineerTo>
+<item key="9CD51F89-00DC-091A-98CE-94FEC369CAFB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

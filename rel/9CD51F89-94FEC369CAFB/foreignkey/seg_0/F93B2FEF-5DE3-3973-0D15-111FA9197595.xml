@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F93B2FEF-5DE3-3973-0D15-111FA9197595" containerWithKeyObject="361E6E20-EA66-5001-05AC-B35881838728" localFKIndex="C3574C08-8F68-6E94-548E-590152DF078A" name="JZ_Jednostki_FK">
+<createdBy>Igor</createdBy>
+<createdTime>2022-03-31 04:26:01 UTC</createdTime>
+<generatorID>2B737AAC-6527-BC54-E3E5-AD523CF40ABF</generatorID>
+<ownerDesignName>DataBaseForGame</ownerDesignName>
+<referredTableLongName>Jednostki</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C90A9C9C-4DFE-12FD-AB57-3FC31392B47B</referredTableID>
+<keyObject>FD1586E0-C28D-9A0A-6C7D-B8A0231C9CD3</keyObject>
+<referredKeyID>FD1586E0-C28D-9A0A-6C7D-B8A0231C9CD3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

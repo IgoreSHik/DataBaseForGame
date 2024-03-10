@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Budynki_Strony" directorySegmentName="seg_0" id="F088E543-BFE6-D858-78EA-252C4072498F">
+<createdBy>Igor</createdBy>
+<createdTime>2022-03-16 21:22:19 UTC</createdTime>
+<ownerDesignName>DataBaseForGame</ownerDesignName>
+<engineerTo>
+<item key="9CD51F89-00DC-091A-98CE-94FEC369CAFB" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>DBA292C6-7471-47A6-067A-27E128F684F0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C2996E84-F58C-982D-80BA-AB53531E2A16</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

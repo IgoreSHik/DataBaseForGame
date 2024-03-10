@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6CF36C13-133B-92D3-F0DF-F558AE93641B" name="Koszt_Postaci">
+<createdBy>Igor</createdBy>
+<createdTime>2022-03-31 04:26:01 UTC</createdTime>
+<ownerDesignName>DataBaseForGame</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Zasoby_id" id="0A2C62C4-C1F7-0292-9E62-A540ECA09EF0">
+<createdBy>Igor</createdBy>
+<createdTime>2022-03-31 04:26:01 UTC</createdTime>
+<ownerDesignName>DataBaseForGame</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="55F2F03E-B38D-AA89-0CEA-71F926ADA120" referredColumn="EAA1FBC3-DE0A-799F-9B57-E9CA6F76069F"/>
+</associations>
+</Column>
+<Column name="Jednostki_id" id="383592B6-E397-5110-178A-1A34E98A9CF6">
+<createdBy>Igor</createdBy>
+<createdTime>2022-03-31 04:26:01 UTC</createdTime>
+<ownerDesignName>DataBaseForGame</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="04D02B32-D966-52FE-BA09-760262E11998" referredColumn="96ADE517-6490-1F3E-B2BF-E9A770679FCC"/>
+</associations>
+</Column>
+<Column name="Ilosc" id="19463D85-A6E5-B53C-22D0-C6E0F9F178FE">
+<createdBy>Igor</createdBy>
+<createdTime>2022-03-31 04:26:01 UTC</createdTime>
+<generatorID>884AF9B2-50FB-33F8-F678-AB292DF317D3</generatorID>
+<ownerDesignName>DataBaseForGame</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7F9A6C8B-E749-F56B-DCDB-0829E3924FE8" name="Koszt_Postaci_PK">
+<createdBy>Igor</createdBy>
+<createdTime>2022-03-31 04:26:01 UTC</createdTime>
+<ownerDesignName>DataBaseForGame</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A2C62C4-C1F7-0292-9E62-A540ECA09EF0"/>
+<colUsage columnID="383592B6-E397-5110-178A-1A34E98A9CF6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="345BE977-82DF-E781-39CD-43912961F5E5" name="KP_Zasoby_FK">
+<createdBy>Igor</createdBy>
+<createdTime>2022-03-31 04:26:01 UTC</createdTime>
+<generatorID>CA7DDBE7-E789-5E28-063B-F2EE5628D238</generatorID>
+<ownerDesignName>DataBaseForGame</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A2C62C4-C1F7-0292-9E62-A540ECA09EF0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="95A377C2-7200-E565-2504-F1F8AFE33371" name="KP_Jednostki_FK">
+<createdBy>Igor</createdBy>
+<createdTime>2022-03-31 04:26:01 UTC</createdTime>
+<generatorID>CA7DDBE7-E789-5E28-063B-F2EE5628D238</generatorID>
+<ownerDesignName>DataBaseForGame</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="383592B6-E397-5110-178A-1A34E98A9CF6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Jednostki_Zdolnosci" directorySegmentName="seg_0" id="2B737AAC-6527-BC54-E3E5-AD523CF40ABF">
+<createdBy>Igor</createdBy>
+<createdTime>2022-03-31 04:24:28 UTC</createdTime>
+<ownerDesignName>DataBaseForGame</ownerDesignName>
+<engineerTo>
+<item key="9CD51F89-00DC-091A-98CE-94FEC369CAFB" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>00CA84A7-76E6-A8FF-566A-D4DB5A9F2EC0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>55630C68-CD8B-EA76-7A5F-179D0F63103B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

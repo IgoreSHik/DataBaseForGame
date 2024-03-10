@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8B0427DA-6610-0499-81CB-8D1DBAA7451B" name="Jednostki_Strony">
+<createdBy>Igor</createdBy>
+<createdTime>2022-03-31 04:26:01 UTC</createdTime>
+<ownerDesignName>DataBaseForGame</ownerDesignName>
+<ordsAlias>postacie_frakcji</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Jednostki_id" id="E5BC42C9-4CBC-5E21-4EC8-5685A41216AE">
+<createdBy>Igor</createdBy>
+<createdTime>2022-03-31 04:26:01 UTC</createdTime>
+<ownerDesignName>DataBaseForGame</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C55BA972-407B-3F37-0FDD-9BCCB88C9F48" referredColumn="96ADE517-6490-1F3E-B2BF-E9A770679FCC"/>
+</associations>
+</Column>
+<Column name="Strony_id" id="92F5FE32-BA56-72EC-30EC-394D7672ABFE">
+<createdBy>Igor</createdBy>
+<createdTime>2022-03-31 04:26:01 UTC</createdTime>
+<ownerDesignName>DataBaseForGame</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E8FACE22-6354-48B6-7DDC-C336FFE62B25" referredColumn="BE682F93-6DDF-08B4-CC2D-17E17D090998"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="815C7C81-8FCD-CF2D-7AEA-7E57736C9D52" name="Postacie_Frakcji_PK">
+<createdBy>Igor</createdBy>
+<createdTime>2022-03-31 04:26:01 UTC</createdTime>
+<ownerDesignName>DataBaseForGame</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5BC42C9-4CBC-5E21-4EC8-5685A41216AE"/>
+<colUsage columnID="92F5FE32-BA56-72EC-30EC-394D7672ABFE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DBC99983-A868-FF53-3E30-3185F4775F6A" name="JS_Jednostki_FK">
+<createdBy>Igor</createdBy>
+<createdTime>2022-03-31 04:26:01 UTC</createdTime>
+<generatorID>911C5A02-89C8-B0C1-4C9A-5D74548F5D09</generatorID>
+<ownerDesignName>DataBaseForGame</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5BC42C9-4CBC-5E21-4EC8-5685A41216AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4410BD35-2338-B7DA-BD1A-4182A5D4F6CF" name="JS_Strony_FK">
+<createdBy>Igor</createdBy>
+<createdTime>2022-03-31 04:26:01 UTC</createdTime>
+<generatorID>911C5A02-89C8-B0C1-4C9A-5D74548F5D09</generatorID>
+<ownerDesignName>DataBaseForGame</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="92F5FE32-BA56-72EC-30EC-394D7672ABFE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
